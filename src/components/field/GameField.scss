@@ -1,0 +1,48 @@
+.game-field{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__row{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__elem{
+    height: 50px;
+    width: 50px;
+    border: 3px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+
+  &__elem:hover{
+    background-color: rgb(91, 91, 132);
+  }
+  &__start-game{
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(34, 11, 128);
+    color: white;
+    border-radius: 4px;
+  }
+
+  &__start-game:hover {
+    background-color: rgb(20, 6, 77);
+  }
+}

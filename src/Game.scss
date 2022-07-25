@@ -1,0 +1,10 @@
+.game{
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+
+  &__header{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

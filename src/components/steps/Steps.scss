@@ -1,0 +1,26 @@
+.steps{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  &__elem {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(45, 10, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+
+  &__header{
+    text-align: center;
+  }
+}
