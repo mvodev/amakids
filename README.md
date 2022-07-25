@@ -13,3 +13,4 @@ npm i
 ```bash
 npm run start
 ```
+Проект запустится на localhost:3000
